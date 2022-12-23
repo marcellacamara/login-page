@@ -4,12 +4,12 @@ export default createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito';
         box-sizing:  border-box;
     }
 
     body {
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Nunito';
         margin: 0;
         padding: 0;
         background-color: #BC9AC5;

@@ -6,13 +6,14 @@ import * as yup from "yup";
 
 import { Container, LoginContainer, Column, Spacing, Title } from "./styles";
 import { defaultValues, IFormLogin } from "./types";
+import { useState } from "react";
 
 const schema = yup
   .object({
     email: yup.string().email("E-mail inválido").required("Campo obrigatório"),
     password: yup
       .string()
-      .min(6, "No mínimo 6 caracteres")
+      .min(8, "No mínimo 8 caracteres")
       .required("Campo obrigatório"),
   })
   .required();
