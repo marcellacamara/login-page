@@ -2,7 +2,7 @@
 
 Página de login com validação utilizando Typescript. Este projeto foi um dos desafios lançados no Bootcamp Orange Tech+ Inter em parceria com a Digital Innovation One.
 
-![Imagem da página de Login]('/public/login-page.png)
+![Imagem da página de Login](login-page.png)
 
 ## Como rodar o projeto:
 
